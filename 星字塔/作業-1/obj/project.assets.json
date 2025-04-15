@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\sn200\\Dropbox\\PC\\Desktop\\C#練習\\kazma作業\\作業-1\\作業-1.csproj",
+      "projectUniqueName": "D:\\GitGame\\Practice-Csharp\\星字塔\\作業-1\\作業-1.csproj",
       "projectName": "作業-1",
-      "projectPath": "C:\\Users\\sn200\\Dropbox\\PC\\Desktop\\C#練習\\kazma作業\\作業-1\\作業-1.csproj",
+      "projectPath": "D:\\GitGame\\Practice-Csharp\\星字塔\\作業-1\\作業-1.csproj",
       "packagesPath": "C:\\Users\\sn200\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\sn200\\Dropbox\\PC\\Desktop\\C#練習\\kazma作業\\作業-1\\obj\\",
+      "outputPath": "D:\\GitGame\\Practice-Csharp\\星字塔\\作業-1\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

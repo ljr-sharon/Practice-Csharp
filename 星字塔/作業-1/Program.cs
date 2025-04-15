@@ -19,6 +19,27 @@
             {
                 Console.WriteLine(new string(' ', (9 - i) / 2) + new string('*', i));
             }
+
+            Console.WriteLine("----------------------");
+            int rows = 5;
+            for (int i = rows; i >= 1; i--)
+            {
+                int n = i * 2 - 1;
+                for (int j = 1; j <= n; j++)
+                {
+                    if (j % 2 != 0)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine();
+            }
+
+
         }
     }
 }
