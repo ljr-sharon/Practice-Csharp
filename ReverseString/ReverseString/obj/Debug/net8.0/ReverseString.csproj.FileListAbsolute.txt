@@ -1,0 +1,15 @@
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\bin\Debug\net8.0\ReverseString.exe
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\bin\Debug\net8.0\ReverseString.deps.json
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\bin\Debug\net8.0\ReverseString.runtimeconfig.json
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\bin\Debug\net8.0\ReverseString.dll
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\bin\Debug\net8.0\ReverseString.pdb
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.AssemblyInfoInputs.cache
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.AssemblyInfo.cs
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.csproj.CoreCompileInputs.cache
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.sourcelink.json
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.dll
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\refint\ReverseString.dll
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.pdb
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ReverseString.genruntimeconfig.cache
+D:\GitGame\Practice-Csharp\ReverseString\ReverseString\obj\Debug\net8.0\ref\ReverseString.dll
