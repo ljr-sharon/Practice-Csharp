@@ -1,0 +1,15 @@
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.exe
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.deps.json
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.runtimeconfig.json
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.dll
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.pdb
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.AssemblyInfoInputs.cache
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.AssemblyInfo.cs
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.csproj.CoreCompileInputs.cache
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.sourcelink.json
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.dll
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\refint\Lesson2-ObserverPattern.dll
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.pdb
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.genruntimeconfig.cache
+D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\ref\Lesson2-ObserverPattern.dll
