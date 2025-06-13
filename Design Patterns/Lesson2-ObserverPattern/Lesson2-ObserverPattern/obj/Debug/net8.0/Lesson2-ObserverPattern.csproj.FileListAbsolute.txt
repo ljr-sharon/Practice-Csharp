@@ -13,3 +13,17 @@ D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-Obser
 D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.pdb
 D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.genruntimeconfig.cache
 D:\GitGame\Practice-Csharp\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\ref\Lesson2-ObserverPattern.dll
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.AssemblyInfoInputs.cache
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.AssemblyInfo.cs
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.csproj.CoreCompileInputs.cache
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.dll
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\refint\Lesson2-ObserverPattern.dll
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.pdb
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.exe
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.deps.json
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.runtimeconfig.json
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.dll
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\bin\Debug\net8.0\Lesson2-ObserverPattern.pdb
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\Lesson2-ObserverPattern.genruntimeconfig.cache
+C:\Users\sharonlee\Desktop\Sharon\Practice-Csharp-main\Design Patterns\Lesson2-ObserverPattern\Lesson2-ObserverPattern\obj\Debug\net8.0\ref\Lesson2-ObserverPattern.dll

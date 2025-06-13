@@ -19,9 +19,9 @@ namespace Lesson2_ObserverPattern
 
         }
         // 
-        public float GetTemperature() { return 0.0f; }
-        public float GetHumidity() { return 0.0f; }
-        public float GetPressure() { return 0.0f; }
+        public float GetTemperature() { return 0f; }
+        public float GetHumidity() { return 0f; }
+        public float GetPressure() { return 0f; }
         public void measurementsChanged()
         {
             NotifyObservers(); // 當數據改變時 通知所有觀察者
@@ -44,6 +44,13 @@ namespace Lesson2_ObserverPattern
                 observer.Update(temperature, humidity, pressure); // 通知所有觀察者
 
             }
+        }
+        public void SetMeasurements(float temp, float humidity, float pressure)
+        {
+            this.temperature = temp;
+            this.humidity = humidity;
+            this.pressure = pressure;
+            measurementsChanged();
         }
     }
 }
