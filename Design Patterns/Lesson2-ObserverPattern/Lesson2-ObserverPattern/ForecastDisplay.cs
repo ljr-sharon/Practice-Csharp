@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lesson2_ObserverPattern.Interface;
+
 
 namespace Lesson2_ObserverPattern
 {
-    internal class ForecastDisplay : Interface.Observer, Interface.DisplayElement
+    internal class ForecastDisplay : Observer, DisplayElement
     {   // 預測
         private float currentPressure=29.92f;
         private float lastPressure;
@@ -19,10 +21,40 @@ namespace Lesson2_ObserverPattern
         }
         public void Display()
         {
-            // 畫面程式
+            //if (currentPressure > lastPressure)
+            //{
+            //    Console.WriteLine("Forecast : Improving weather on the way!");
+            //}
+            //else if (currentPressure == lastPressure)
+            //{
+            //    Console.WriteLine("Forecast : More of the same");
+            //}
+            //else  // currentPressure < lastPressure
+            //{
+            //    Console.WriteLine("Forecast : Watch out for cooler, rainy weather");
+            //}
+
+            string forecast = currentPressure > lastPressure ? "Improving weather on the way!" :
+                              currentPressure == lastPressure ? "More of the same" :
+                              "Watch out for cooler, rainy weather";
+            Console.WriteLine("Forecast : " + forecast);
+
+            //switch (true)
+            //{
+            //    case var _ when currentPressure > lastPressure:
+            //        Console.WriteLine("Forecast : Improving weather on the way!");
+            //        break;
+            //    case var _ when currentPressure == lastPressure:
+            //        Console.WriteLine("Forecast : More of the same");
+            //        break;
+            //    case var _ when currentPressure < lastPressure:
+            //        Console.WriteLine("Forecast : Watch out for cooler, rainy weather");
+            //        break;
+            //}
+
         }
 
-        public void Update(float temp, float humidity, float pressure)
+        public void Update()
         {
             lastPressure = currentPressure;
             currentPressure = weatherData.GetPressure();

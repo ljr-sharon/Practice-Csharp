@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lesson2_ObserverPattern.Interface;
+
 
 namespace Lesson2_ObserverPattern
 {
-    internal class StatisticsDisplay : Interface.Observer, Interface.DisplayElement
+    internal class StatisticsDisplay : Observer, DisplayElement
     {   // max,min,Avg
-        private float lastTemperature;
+        private float lastTemperature = 0f;
         private float minTemp;
         private float maxTemp;
         private float avgTemp;
@@ -21,12 +23,34 @@ namespace Lesson2_ObserverPattern
         }
         public void Display()
         {
-            Console.WriteLine($"Avg/Max/Min temperature : ");
+            Console.WriteLine($"Avg/Max/Min temperature : {avgTemp:F1}/{maxTemp:F1}/{minTemp:F1}");
         }
 
-        public void Update(float temp, float humidity, float pressure)
+        public void Update()
         {
+            var temp = weatherData.GetTemperature(); // 取得溫度
 
+            if (lastTemperature == 0)  // 初始化
+            {
+                minTemp = temp;
+                maxTemp = temp;
+                avgTemp = temp;
+                lastTemperature = temp;
+            }
+            else
+            {
+                if (temp < minTemp)
+                {
+                    minTemp = temp;
+                }
+                if (temp > maxTemp)
+                {
+                    maxTemp = temp;
+                }
+                avgTemp = (lastTemperature + temp) / 2; // 簡單平均
+                lastTemperature = temp; // 更新最後的溫度
+            }
+            Display();
         }
     }
 }

@@ -8,6 +8,6 @@ namespace Lesson2_ObserverPattern.Interface
 {
     public interface DisplayElement
     {
-        public void Display(); // 顯示介面
+        public void Display(); // 顯示畫面
     }
 }

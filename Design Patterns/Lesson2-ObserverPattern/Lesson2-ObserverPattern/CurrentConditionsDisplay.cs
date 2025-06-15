@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Lesson2_ObserverPattern.Interface;
+
 
 namespace Lesson2_ObserverPattern
 {
-    public class CurrentConditionsDisplay : Interface.Observer, Interface.DisplayElement
+    public class CurrentConditionsDisplay : Observer, DisplayElement
     {
         private float temperature;
         private float humidity;
@@ -19,13 +21,13 @@ namespace Lesson2_ObserverPattern
         }
         public void Display()
         {
-            Console.WriteLine($"CurrentConditions : {temperature} ; F degrees and {humidity} % humidity");
+            Console.WriteLine($"CurrentConditions : {temperature:F1} F degrees and {humidity} % humidity");
         }
 
-        public void Update(float temp, float humidity, float pressure)
+        public void Update()
         {
-            this.temperature = temp;
-            this.humidity = humidity;
+            this.temperature = weatherData.GetTemperature();
+            this.humidity = weatherData.GetHumidity();
             Display();
         }
     }

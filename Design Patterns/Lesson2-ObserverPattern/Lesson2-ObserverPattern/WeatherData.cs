@@ -7,21 +7,21 @@ using System.Threading.Tasks;
 
 namespace Lesson2_ObserverPattern
 {
-    public class WeatherData : Interface.Subject
+    public class WeatherData : Subject
     {
-        private List<Interface.Observer> observers; // 存放觀察者
+        private List<Observer> observers; // 存放觀察者
         private float temperature;
         private float humidity;
         private float pressure;
         public WeatherData()
         {
-            observers = new List<Interface.Observer>(); // 初始化觀察者列表
+            observers = new List<Observer>(); // 初始化觀察者列表
 
         }
-        // 
-        public float GetTemperature() { return 0f; }
-        public float GetHumidity() { return 0f; }
-        public float GetPressure() { return 0f; }
+        
+        public float GetTemperature() { return temperature; }
+        public float GetHumidity() { return humidity; }
+        public float GetPressure() { return pressure; }
         public void measurementsChanged()
         {
             NotifyObservers(); // 當數據改變時 通知所有觀察者
@@ -41,7 +41,7 @@ namespace Lesson2_ObserverPattern
         {
             foreach (Observer observer in observers)
             {
-                observer.Update(temperature, humidity, pressure); // 通知所有觀察者
+                observer.Update(); // 通知所有觀察者更新
 
             }
         }
