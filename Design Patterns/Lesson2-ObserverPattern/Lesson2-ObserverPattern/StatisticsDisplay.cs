@@ -8,7 +8,7 @@ using Lesson2_ObserverPattern.Interface;
 
 namespace Lesson2_ObserverPattern
 {
-    internal class StatisticsDisplay : Observer, DisplayElement
+    public class StatisticsDisplay : Observer, DisplayElement
     {   // max,min,Avg
         private float lastTemperature = 0f;
         private float minTemp;

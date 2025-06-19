@@ -8,7 +8,7 @@ using Lesson2_ObserverPattern.Interface;
 
 namespace Lesson2_ObserverPattern
 {
-    internal class ForecastDisplay : Observer, DisplayElement
+    public class ForecastDisplay : Observer, DisplayElement
     {   // 預測
         private float currentPressure=29.92f;
         private float lastPressure;
